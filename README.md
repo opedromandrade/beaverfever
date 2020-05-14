@@ -7,23 +7,21 @@ Feel free to transform, distribute or adapt this script according to YOUR needs.
 Suggestions are very welcome.
 
 # What's in the zip
-Some sripts to different versions of ubuntu. I'm making more files according to my taste and Ubuntu releases. 
-    * MotherFossa - My Ubuntu 20.04 script
-    * BeverFever - My Ubuntu 18.04 script
+Some sripts to different versions of ubuntu. I'm making more files according to my taste and Ubuntu releases.
+1. MotherFossa - My Ubuntu 20.04 script
+2. BeverFever - My Ubuntu 18.04 script
 
 # How to use
 
 1. [Download [zip]](https://github.com/opedromandrade/buntuscripts/archive/master.zip)
-
 2. Extract the desired script
-
 3. Give permissions to run the file
 
-    $ chmod +x /path to/or/file
+   `$ chmod +x /path to/or/file`
 
 4. Run it
 
-    $ ./myscript.sh
+    `$ ./myscript.sh`
 
 
 ## License
