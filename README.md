@@ -1,11 +1,16 @@
-beaverfever
+BuntuScripts
 ===========================
-This is just a very very simple script I made for Ubuntu 18.04 to get all the bits I need, to get shit up & running the fastest, the most effortlessly and complete way possible.
+These are some (very) small/basic scripts to run on a freshly installed minimal Ubuntu installation, and install of MY preferred software with little to no work/human intervention.
+
+Feel free to transform, distribute or adapt this script according to YOUR needs.
+
+Suggestions are very welcome.
 
 # how to use
 Just download the file, open terminal in the same folder, and type
 
     $ sh beaverfever.sh
+
 
 ## License
 
