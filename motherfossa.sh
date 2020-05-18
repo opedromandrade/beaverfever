@@ -39,6 +39,9 @@ sudo apt install vlc
 ## Audio player
 sudo apt install rhythmbox
 
+# EasyTAG
+sudo apt install easytag
+
 ## Aditional formats for compression
 sudo apt install unace rar zip unzip p7zip p7zip-full \
 p7zip-rar sharutils uudeview arj cabextract
