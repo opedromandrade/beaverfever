@@ -1,12 +1,9 @@
 #!/bin/bash
-# this is just a simple script for Ubuntu 20.04 [minimal install] to get all the bits n' bobs
-# to get shit up & running the fastest, the most effortlessly and complete way possible, to MY needs.
-# Feel free to transform, distribute or adapt this script according to YOUR needs.
-#
-# author: pedro andrade <pmm.andrade@outlook.com>
+# this is just a simple script for Ubuntu 20.04 to get some extra the bits n' bobs
+# that might be needed.
 #
 # before starting:
-#	1. please make sure you have the fastest mirror selected, and also the Canonical Partners Repo enabled
+#	1. make sure you have the fastest mirror selected, and also the Canonical Partners Repo enabled
 #	2. comment lines out to disable stuff you don't want install
 
 ### Let's roll!
@@ -25,7 +22,7 @@ sudo apt install git
 # Synaptic
 sudo apt install synaptic
 
-## Some exyra zing to ubuntu
+## Some extra zing to Ubuntu
 # Restricted extras (includes a bunch of cool stuff, codecs and fonts)
 sudo apt install ubuntu-restricted-extras
 
@@ -36,19 +33,50 @@ sudo apt install totem
 # VLC
 sudo apt install vlc
 
-## Audio player
+## Audio files software
+# Rhythmbox
 sudo apt install rhythmbox
+
+# Quodlibet and exfalso
+sudo apt install quodlibet exfalso
 
 # EasyTAG
 sudo apt install easytag
+
+## Book stuff
+# Calibre and Sigil
+sudo apt install calibre sigil
 
 ## Aditional formats for compression
 sudo apt install unace rar zip unzip p7zip p7zip-full \
 p7zip-rar sharutils uudeview arj cabextract
 
+## Image editing
+# Mighty GIMP
+sudo apt install gimp gimp-plugin-registry gimp-data-extras
+
+# Darktable
+sudo apt install darktable
+
+## Video and Audio creation
+# Kdenlive
+sudo apt install kdenlive
+
+# Openshot
+sudo apt install openshot
+
+# Audacity
+sudo apt install audacity
+
+#Simple Screen Recorder
+sudo apt install simplescreenrecorder
+
+## LibreOffice
+
+
 ## Internet Stuff
 # Extra browser [Chromium] & Flash support
-sudo apt install chromium-browser pepperflashplugin-nonfree
+sudo apt install chromium-browser
 
 # FTP support
 sudo apt install filezilla
@@ -58,13 +86,6 @@ sudo apt install transmission-gtk
 
 # Firewall
 sudo apt install gufw
-
-## Image editing
-# Mighty GIMP
-sudo apt install gimp gimp-plugin-registry gimp-data-extras
-
-# Darktable
-sudo apt install darktable
 
 ## Battery Laptop Tweak
 # Install the magic

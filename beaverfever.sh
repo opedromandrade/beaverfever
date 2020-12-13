@@ -3,7 +3,7 @@
 # to get shit up & running the fastest, the most effortlessly and complete way possible.
 #
 # Author:
-#   Pedro Andrade <pmm.andrade@protonmail.com>
+#   Pedro Andrade - https://github.com/opedromandrade
 #
 # updated on: 18.09.2018
 #
