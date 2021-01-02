@@ -86,6 +86,9 @@ sudo apt install transmission-gtk
 # Firewall
 sudo apt install gufw
 
+# Handy tools
+sudo apt install net-tools
+
 ## Battery Laptop Tweak
 # Install the magic
 sudo apt install tlp tlp-rdw
