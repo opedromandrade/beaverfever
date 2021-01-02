@@ -1,6 +1,6 @@
 BuntuScripts
 ===========================
-These are some (very) small/basic scripts to run on a freshly installed minimal Ubuntu installation, and install of MY preferred software with little to no work/human intervention. This might also work in some Ubuntu/Debian based distros.
+These are some (very) small/basic scripts to run on a freshly installed [minimal] Ubuntu installation, and install of MY preferred software with little to no work/human intervention. This might also work in some Ubuntu/Debian based distros.
 
 Feel free to transform, distribute or adapt this script according to YOUR needs.
 

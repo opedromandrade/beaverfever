@@ -1,6 +1,5 @@
 #!/bin/bash
-# this is just a simple script for Ubuntu 20.04 to get some extra the bits n' bobs
-# that might be needed.
+# this is just a simple script for Ubuntu 20.04
 #
 # before starting:
 #	1. make sure you have the fastest mirror selected, and also the Canonical Partners Repo enabled
@@ -96,8 +95,11 @@ sudo tlp start
 # Beautify tools
 sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
+# VPN stuff
+sudo apt install wireguard
+
 # Clean some more [just for reinsurance]
-sudo apt autoremove
+sudo apt autoremove && sudo apt autoclean
 
 # Gotta reboot now:
 
