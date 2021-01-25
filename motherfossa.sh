@@ -62,7 +62,7 @@ sudo apt install darktable
 sudo apt install kdenlive
 
 # Openshot
-sudo apt install openshot
+#sudo apt install openshot
 
 # Audacity
 sudo apt install audacity
