@@ -1,6 +1,6 @@
 #!/bin/bash
 # this is just a simple script for Ubuntu 20.04
-#
+# v01.2021
 # before starting:
 #	1. make sure you have the fastest mirror selected, and also the Canonical Partners Repo enabled
 #	2. comment lines out to disable stuff you don't want install
@@ -100,6 +100,9 @@ sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
 # VPN stuff
 sudo apt install wireguard
+
+# Install Intel proprietary stuff
+sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
