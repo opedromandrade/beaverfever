@@ -8,7 +8,7 @@
 ### Let's roll!
 
 ## Let's update stuff
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt upgrade -y
 
 ## Small things
 
@@ -22,19 +22,22 @@ sudo apt install git
 sudo apt install synaptic
 
 ## Some extra zing to Ubuntu
-# Restricted extras (includes a bunch of cool stuff, codecs and fonts)
+# Restricted extras (includes a bunch of cool stuff, codecs and fonts) - https://help.ubuntu.com/community/RestrictedFormats
 sudo apt install ubuntu-restricted-extras
+#sudo apt-get install kubuntu-restricted-extras
+#sudo apt-get install xubuntu-restricted-extras
+#sudo apt-get install lubuntu-restricted-extras
 
 ## Video players
 # Gnome Videos (formerly known as totem) 
 sudo apt install totem
 
 # VLC
-sudo apt install vlc
+#sudo apt install vlc
 
 ## Audio files software
 # Rhythmbox
-sudo apt install rhythmbox
+#sudo apt install rhythmbox
 
 # Quodlibet and exfalso
 sudo apt install quodlibet exfalso
@@ -43,12 +46,11 @@ sudo apt install quodlibet exfalso
 sudo apt install easytag
 
 ## Book stuff
-# Calibre and Sigil
-sudo apt install calibre sigil
+# Calibre - https://calibre-ebook.com
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
 ## Aditional formats for compression
-sudo apt install unace rar zip unzip p7zip p7zip-full \
-p7zip-rar sharutils uudeview arj cabextract
+sudo apt install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudeview arj cabextract
 
 ## Image editing
 # Mighty GIMP
@@ -68,10 +70,9 @@ sudo apt install kdenlive
 sudo apt install audacity
 
 #Simple Screen Recorder
-sudo apt install simplescreenrecorder
+#sudo apt install simplescreenrecorder
 
 ## LibreOffice
-
 
 ## Internet Stuff
 # Extra browser [Chromium] & Flash support
@@ -96,10 +97,11 @@ sudo apt install tlp tlp-rdw
 sudo tlp start
 
 # Beautify tools
-sudo apt install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
+sudo apt install gedit-plugin-text-size gnome-tweak-tool
+#sudo apt install chrome-gnome-shell
 
 # VPN stuff
-sudo apt install wireguard
+#sudo apt install wireguard
 
 # Install Intel proprietary stuff
 sudo apt install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
