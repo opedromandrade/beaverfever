@@ -29,10 +29,6 @@ sudo apt-get install git
 # Synaptic
 sudo apt-get install synaptic
 
-# FlatPak
-sudo apt-get install flatpak && flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo apt-get install gnome-software-plugin-flatpak
-
 ## Some extra zing to Ubuntu
 # Restricted extras (includes a bunch of cool stuff, codecs and fonts) - https://help.ubuntu.com/community/RestrictedFormats
 sudo apt-get install ubuntu-restricted-extras
@@ -61,12 +57,18 @@ sudo apt-get install easytag
 # Calibre - https://calibre-ebook.com
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
 
-## Book stuff
 # Sigil
 sudo apt-get install sigil
 
 ## Aditional formats for compression
 sudo apt-get install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uudeview arj cabextract
+
+## Multimedia
+## Debian Multimedia
+# Get that key
+#wget http://www.deb-multimedia.org/pool/main/d/deb-multimedia-keyring/deb-multimedia-keyring_2016.8.1_all.deb
+# Make magic
+#sudo dpkg -i deb-multimedia-keyring_2016.8.1_all.deb
 
 ## Image editing
 # Mighty GIMP
@@ -78,9 +80,10 @@ sudo apt-get install darktable
 ## Video and Audio creation
 # Kdenlive
 #sudo apt-get install kdenlive
+# Remove KDE Connect
+#sudo apt remove kdeconnect
 
-# Openshot
-#sudo apt-get install openshot
+# ShotCut
 
 # Audacity
 sudo apt-get install audacity
@@ -88,7 +91,11 @@ sudo apt-get install audacity
 #Simple Screen Recorder
 #sudo apt-get install simplescreenrecorder
 
-## LibreOffice
+## Office tools
+# LibreOffice
+sudo apt-get install libreoffice-gnome libreoffice
+# LibreOffice Portuguese localization et all
+sudo apt-get install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
 
 ## Internet Stuff
 # Extra browser [Chromium] & Flash support
