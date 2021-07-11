@@ -1,14 +1,14 @@
 #!/bin/bash
 # 
 # Author: Pedro Andrade - https://github.com/opedromandrade
-# this is just a simple script for Ubuntu 20.04
+# this is just a simple script for Ubuntu
 #
 # v02.2021
-# updated on: 11.07.2021
+# updated on: 07.2021
 #
 # before starting:
 #	1. make sure you have the fastest mirror selected, and also the Canonical Partners Repo enabled
-#	2. comment lines out to disable stuff you don't want install
+#	2. comment lines out to disable stuff you don't want install/remove
 
 ### Let's roll!
 
@@ -75,7 +75,7 @@ sudo apt-get install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uu
 sudo apt-get install gimp gimp-plugin-registry gimp-data-extras
 
 ## Photography
-# Rapid Photo Downloader - ccullign them photos
+# Rapid Photo Downloader - culling them photos
 sudo apt-get install rapid-photo-downloader
 
 # Darktable
