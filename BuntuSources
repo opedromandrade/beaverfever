@@ -1,0 +1,27 @@
+#------------------------------------------------------------------------------#
+#                             MY UBUNTU LTS REPOS                              #
+#------------------------------------------------------------------------------#
+### ---------------------- Current LTS version 20.04 ------------------------###
+#------------------------------------------------------------------------------#
+##   updated 07.2021 | pedro andrade - https://opedromandrade.wordpress.com   ##
+
+###### Ubuntu Main Repos
+deb http://pt.archive.ubuntu.com/ubuntu/ bionic main restricted universe 
+#deb-src http://pt.archive.ubuntu.com/ubuntu/ bionic multiverse 
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+deb http://pt.archive.ubuntu.com/ubuntu/ bionic-updates main restricted universe
+
+## Ubuntu Multiverse
+deb http://pt.archive.ubuntu.com/ubuntu/ bionic-updates multiverse
+deb http://pt.archive.ubuntu.com/ubuntu/ bionic multiverse
+
+## Ubuntu Backports
+deb http://pt.archive.ubuntu.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+## Ubuntu Security
+deb http://security.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
+
+## Ubuntu Partners
+# deb http://archive.canonical.com/ubuntu bionic partner
