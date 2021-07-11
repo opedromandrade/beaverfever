@@ -74,6 +74,10 @@ sudo apt-get install unace rar zip unzip p7zip p7zip-full p7zip-rar sharutils uu
 # Mighty GIMP
 sudo apt-get install gimp gimp-plugin-registry gimp-data-extras
 
+## Photography
+# Rapid Photo Downloader - ccullign them photos
+sudo apt-get install rapid-photo-downloader
+
 # Darktable
 sudo apt-get install darktable
 
@@ -98,20 +102,27 @@ sudo apt-get install libreoffice-gnome libreoffice
 sudo apt-get install myspell-pt-pt hyphen-pt-pt libreoffice-l10n-pt mythes-pt-pt libreoffice-help-pt
 
 ## Internet Stuff
-# Extra browser [Chromium] & Flash support
-#sudo apt-get install chromium-browser
+# Extra browser [Chromium]
+sudo apt-get install chromium-browser
 
 # FTP support
 #sudo apt-get install filezilla
 
 # p2p
-#sudo apt-get install transmission-gtk
+# qBittorrent
+sudo add-apt-repository ppa:qbittorrent-team/qbittorrent-stable && sudo apt-get update && sudo apt-get install qbittorrent
+
+# Remove Transmission
+sudo apt-get remove transmission-gtk
 
 # Firewall
 sudo apt-get install gufw
 
 # Handy tools
 sudo apt-get install net-tools
+
+# VPN stuff
+#sudo apt-get install wireguard
 
 ## Battery Laptop Tweak
 # Install the magic
@@ -120,11 +131,10 @@ sudo apt-get install tlp tlp-rdw
 sudo tlp start
 
 # Beautify tools
-sudo apt-get install gedit-plugin-text-size gnome-tweak-tool
-#sudo apt-get install chrome-gnome-shell
+sudo apt-get install chrome-gnome-shell gedit-plugin-text-size gnome-tweak-tool
 
-# VPN stuff
-#sudo apt-get install wireguard
+# NUMiX
+sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 # Clean some more [just for reinsurance]
 sudo apt autoremove && sudo apt autoclean
