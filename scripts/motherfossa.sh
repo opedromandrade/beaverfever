@@ -82,11 +82,12 @@ sudo apt-get install darktable
 
 ## Video and Audio creation
 # Kdenlive
+# add the ppa:
+sudo add-apt-repository ppa:kdenlive/kdenlive-stable && sudo apt update
+# Intsall the mofo
 sudo apt-get install kdenlive
 # Remove KDE Connect
 sudo apt remove kdeconnect
-
-# ShotCut
 
 # Audacity
 sudo apt-get install audacity
