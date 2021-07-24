@@ -19,7 +19,6 @@ sudo apt update && sudo apt upgrade -y
 sudo apt-get install i965-va-driver-shaders intel-media-va-driver-non-free intel-gpu-tools
 
 ## Small things
-
 # Open JDK
 sudo apt-get install openjdk-11-jre
 
@@ -83,9 +82,9 @@ sudo apt-get install darktable
 
 ## Video and Audio creation
 # Kdenlive
-#sudo apt-get install kdenlive
+sudo apt-get install kdenlive
 # Remove KDE Connect
-#sudo apt remove kdeconnect
+sudo apt remove kdeconnect
 
 # ShotCut
 
