@@ -18,6 +18,9 @@ sudo pacman -Syyu
 ## Update mirrors and stuff
 yay -Syu
 
+## Install BlueTooth
+sudo pacman -S blueberry
+
 ## Small things
 # OpenJDK
 sudo pacman -S jdk-openjdk
