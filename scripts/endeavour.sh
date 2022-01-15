@@ -16,7 +16,7 @@
 sudo pacman -Syyu
 
 ## Update mirrors and stuff
-sudo pacman -Syyu
+yay -Syu
 
 ## Small things
 # OpenJDK
@@ -30,7 +30,7 @@ sudo pacman -S sharutils uudeview arj cabextract unace unrar zip unzip p7zip
 
 ## Video players
 # MPV - https://mpv.io
-yay -S mpv-build-git
+#yay -S mpv-build-git
 
 # VLC
 #sudo pacman -S vlc
@@ -81,20 +81,20 @@ sudo pacman -S simplescreenrecorder
 # LibreOffice
 sudo pacman -S libreoffice libreoffice-breeze-icons
 # LibreOffice Portuguese localization et all
-sudo pacman -S hunspell-pt_pt hunspell-pt_pt-preao hyphen-pt_pt
+yay -S hunspell-pt_pt hunspell-pt_pt-preao hyphen-pt_pt
 
 ## Internet Stuff
 # Extra browser [Chromium or Opera]
 sudo pacman -S chromium opera
 
 # FTP support
-sudo pacman -S install filezilla
+#sudo pacman -S install filezilla
 
 # p2p
 # qBittorrent
 sudo pacman -S qbittorrent
 # transmission
-sudo pacman -S transmission-gtk
+#sudo pacman -S transmission-gtk
 
 # Firewall
 sudo pacman -S ufw
@@ -103,17 +103,17 @@ sudo pacman -S ufw
 sudo pacman -S net-tools-git
 
 # VPN stuff
-yay -S qomui
+#yay -S qomui
 
 ## Battery Laptop Tweak
 # Install the magic
-yay -S install tlp
+sudo pacman -S tlp
 # Make it happen
 sudo tlp start
 
 # Beautify tools
 # NUMiX
-sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
+#sudo apt-get install numix-gtk-theme numix-icon-theme numix-icon-theme-circle
 
 # Gotta reboot now:
 
