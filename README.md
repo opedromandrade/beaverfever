@@ -1,4 +1,4 @@
-BuntuScripts
+TuxScripts
 ===========================
 These are some (very) small/basic scripts to run on a freshly installed Linux system, and install of MY preferred software with little to no work/human intervention. This might also work in some Ubuntu/Debian based distros.
 
